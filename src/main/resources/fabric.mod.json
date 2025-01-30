@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vigilance-extras",
+	"version": "${version}",
+	"name": "Vigilance Extras",
+	"description": "Collection of mods for the Vigilance Cobblemon server.",
+	"authors": [
+		"z3rodown"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vigilance-extras/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.z3rodown.vigilancextras.VigilanceExtras"
+		],
+		"fabric-datagen": [
+			"net.z3rodown.vigilancextras.VigilanceExtrasDataGenerator"
+		],
+		"client": [
+			"net.z3rodown.vigilancextras.VigilanceExtrasClient"
+		]
+	},
+	"mixins": [
+		"vigilance-extras.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
