@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "faf",
+        "ePe",
+        "faf"
+    ],
+    "key": {
+        "f": {
+            "item": "minecraft:diamond"
+        },
+        "P": {
+            "item": "cobblemon:ability_capsule"
+        },
+	 "a": {
+            "item": "minecraft:amethyst_shard"
+        },
+	"e": {
+            "item": "cobblemon:enigma_berry"
+        }
+
+    },
+    "result": {
+        "id": "cobblemon:ability_patch",
+        "count": 1
+    }
+}

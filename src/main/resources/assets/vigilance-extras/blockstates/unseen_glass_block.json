@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vigilance-extras:block/unseen_glass_block"
+    }
+  }
+}

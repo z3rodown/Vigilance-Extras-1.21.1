@@ -1,0 +1,26 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "n#n",
+        "dGd",
+        "n#n"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "G": {
+            "item": "cobblemon:revive"
+        },
+	"d": {
+            "item": "minecraft:diamond"
+        },
+	"n": {
+            "item": "minecraft:gold_nugget"
+        }
+    },
+    "result": {
+        "id": "cobblemon:ability_capsule",
+        "count": 1
+    }
+}

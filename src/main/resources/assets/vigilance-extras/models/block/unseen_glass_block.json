@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "ambientocclusion": false,
+  "shade": false,
+  "textures": {
+    "all": "vigilance-extras:block/unseen_glass_block",
+    "particle": "vigilance-extras:block/unseen_glass_block"
+  },
+  "render_type": "minecraft:translucent"
+}
