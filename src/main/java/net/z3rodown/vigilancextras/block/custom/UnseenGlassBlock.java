@@ -6,6 +6,8 @@ import net.minecraft.block.BlockState;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.BlockView;
 
+// Invisible block that is waterlogged to get rid of shadow effect
+
 public class UnseenGlassBlock extends Block {
 
     public UnseenGlassBlock(Settings settings) {

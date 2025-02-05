@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "vigilance-extras:item/unseen_glass_item"
+    "layer0": "vigilance-extras:item/unseen_glass_block"
   }
 }

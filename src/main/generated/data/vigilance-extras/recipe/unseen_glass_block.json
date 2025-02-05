@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_block"
+    },
+    "g": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    " g ",
+    "gAg",
+    " g "
+  ],
+  "result": {
+    "count": 6,
+    "id": "vigilance-extras:unseen_glass_block"
+  }
+}

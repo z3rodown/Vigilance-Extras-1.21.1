@@ -14,6 +14,7 @@ import net.z3rodown.vigilancextras.block.custom.UnseenGlassBlock;
 
 public class ModBlocks {
 
+    // Registered block with settings
     public static final Block UNSEEN_GLASS_BLOCK = registerBlock("unseen_glass_block",
             new UnseenGlassBlock(AbstractBlock.Settings.create()
                     .strength(0.1F)
@@ -39,7 +40,7 @@ public class ModBlocks {
         VigilanceExtras.LOGGER.info("Registering Mod Blocks for " + VigilanceExtras.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.UNSEEN_GLASS_BLOCK);
+            entries.add(ModBlocks.UNSEEN_GLASS_BLOCK); // Unseen Glass Block group entry
         });
     }
 }

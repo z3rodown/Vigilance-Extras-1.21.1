@@ -11,9 +11,9 @@ import net.z3rodown.vigilancextras.VigilanceExtras;
 import net.z3rodown.vigilancextras.block.ModBlocks;
 
 public class ModItemGroups {
-
+// Registers items to show in creative menu
     public static final ItemGroup VIGILANCE_EXTRAS = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(VigilanceExtras.MOD_ID, "unseen_glass_blocks"),
+            Identifier.of(VigilanceExtras.MOD_ID, "vigilance_extras"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.UNSEEN_GLASS_BLOCK))
                     .displayName(Text.translatable("item-group.vigilance-extras"))
                     .entries((displayContext, entries) -> {

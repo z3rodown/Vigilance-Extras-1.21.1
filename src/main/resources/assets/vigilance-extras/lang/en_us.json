@@ -1,5 +1,13 @@
 {
   "block.vigilance-extras.unseen_glass_block": "Unseen Glass Block",
 
+  "enchantment.vigilance-extras.sparkle_seeker": "Sparkle Seeker",
+
+  "item.minecraft.potion.effect.ominous_potion": "Ominous Potion",
+  "item.minecraft.splash_potion.effect.ominous_potion": "Ominous Splash Potion",
+  "item.minecraft.lingering_potion.effect.ominous_potion": "Ominous Lingering Potion",
+
+  "effect.vigilance-extras.ominous": "Ominous",
+
   "item-group.vigilance-extras": "Vigilance Extras"
 }
