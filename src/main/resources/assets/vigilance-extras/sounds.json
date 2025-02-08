@@ -1,0 +1,10 @@
+{
+  "arceus_volo_final": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:arceus_volo_final",
+        "stream": true
+      }
+    ]
+  }
+}

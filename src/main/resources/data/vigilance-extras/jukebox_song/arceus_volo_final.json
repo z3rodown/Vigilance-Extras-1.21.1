@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.vigilance-extras.arceus_volo_final_music_disc.desc"
+  },
+  "length_in_seconds": 300.0,
+  "sound_event": "vigilance-extras:arceus_volo_final"
+}

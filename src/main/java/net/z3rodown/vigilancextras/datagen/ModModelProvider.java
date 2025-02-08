@@ -6,6 +6,7 @@ import net.z3rodown.vigilancextras.block.ModBlocks;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.z3rodown.vigilancextras.item.ModItems;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -20,5 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModBlocks.UNSEEN_GLASS_BLOCK.asItem(), Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.ARCEUS_VOLO_FINAL_MUSIC_DISC, Models.GENERATED);
     }
 }

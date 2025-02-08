@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .displayName(Text.translatable("item-group.vigilance-extras"))
                     .entries((displayContext, entries) -> {
                         entries.add(ModBlocks.UNSEEN_GLASS_BLOCK);
+                        entries.add(ModItems.ARCEUS_VOLO_FINAL_MUSIC_DISC);
                     }).build());
 
     public static void registerItemGroups() {

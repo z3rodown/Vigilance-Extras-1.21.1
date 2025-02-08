@@ -10,6 +10,7 @@ import net.z3rodown.vigilancextras.effect.ModEffects;
 import net.z3rodown.vigilancextras.item.ModItemGroups;
 import net.z3rodown.vigilancextras.item.ModItems;
 import net.z3rodown.vigilancextras.potion.ModPotions;
+import net.z3rodown.vigilancextras.sound.ModSounds;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +24,8 @@ public class VigilanceExtras implements ModInitializer {
 
 		ModPotions.registerPotions(); // Register Potions
 		ModEffects.registerEffects(); // Register Effects
+
+		ModSounds.registerSounds(); // Register Sounds and Music
 
 		ModItems.registerModItems(); // Registers Items under ModItems.class
 		ModBlocks.registerModBlocks(); // Registers Blocks under ModBlocks.class

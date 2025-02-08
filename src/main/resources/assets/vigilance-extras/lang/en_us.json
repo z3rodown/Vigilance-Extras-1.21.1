@@ -1,5 +1,6 @@
 {
   "block.vigilance-extras.unseen_glass_block": "Unseen Glass Block",
+  "tooltip.vigilance-extras.unseen_glass_block.tooltip": "§7Invisible to all.§r",
 
   "enchantment.vigilance-extras.sparkle_seeker": "Sparkle Seeker",
 
@@ -8,6 +9,9 @@
   "item.minecraft.lingering_potion.effect.ominous_potion": "Ominous Lingering Potion",
 
   "effect.vigilance-extras.ominous": "Ominous",
+
+  "item.vigilance-extras.arceus_volo_final_music_disc": "Pokemon Legends Music Disc",
+  "item.vigilance-extras.arceus_volo_final_music_disc.desc": "Pokemon Legends - Arceus - Volo Final Battle",
 
   "item-group.vigilance-extras": "Vigilance Extras"
 }
