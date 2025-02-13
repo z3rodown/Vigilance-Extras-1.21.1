@@ -1,8 +1,56 @@
 {
+  "arceus_arceus_battle": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:arceus_arceus_battle",
+        "stream": true
+      }
+    ]
+  },
   "arceus_volo_final": {
     "sounds": [
       {
         "name":"vigilance-extras:arceus_volo_final",
+        "stream": true
+      }
+    ]
+  },
+  "bw_pwt_final": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:bw_pwt_final",
+        "stream": true
+      }
+    ]
+  },
+  "ruby_sapphire_giratina": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:ruby_sapphire_giratina",
+        "stream": true
+      }
+    ]
+  },
+  "ruby_sapphire_rayquaza": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:ruby_sapphire_rayquaza",
+        "stream": true
+      }
+    ]
+  },
+  "ruby_sapphire_zinnia": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:ruby_sapphire_zinnia",
+        "stream": true
+      }
+    ]
+  },
+  "ultra_mewtwo_battle": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:ultra_mewtwo_battle",
         "stream": true
       }
     ]

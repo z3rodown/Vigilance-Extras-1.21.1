@@ -10,8 +10,26 @@
 
   "effect.vigilance-extras.ominous": "Ominous",
 
+  "item.vigilance-extras.arceus_arceus_battle_music_disc": "Pokemon Legends Music Disc",
+  "item.vigilance-extras.arceus_arceus_battle_music_disc.desc": "Pokemon Legends Arceus - Arceus Battle Music",
+
   "item.vigilance-extras.arceus_volo_final_music_disc": "Pokemon Legends Music Disc",
-  "item.vigilance-extras.arceus_volo_final_music_disc.desc": "Pokemon Legends - Arceus - Volo Final Battle",
+  "item.vigilance-extras.arceus_volo_final_music_disc.desc": "Pokemon Legends Arceus - Volo Final Battle",
+
+  "item.vigilance-extras.bw_pwt_final_music_disc": "Pokemon BW Music Disc",
+  "item.vigilance-extras.bw_pwt_final_music_disc.desc": "Pokemon Black & White - PWT Final Round",
+
+  "item.vigilance-extras.ruby_sapphire_giratina_music_disc": "Pokemon Ruby Sapphire Music Disc",
+  "item.vigilance-extras.ruby_sapphire_giratina_music_disc.desc": "Pokemon Ruby Sapphire - Giratina Battle Music",
+
+  "item.vigilance-extras.ruby_sapphire_rayquaza_music_disc": "Pokemon Ruby Sapphire Music Disc",
+  "item.vigilance-extras.ruby_sapphire_rayquaza_music_disc.desc": "Pokemon Ruby Sapphire - Rayquaza Battle Music",
+
+  "item.vigilance-extras.ruby_sapphire_zinnia_music_disc": "Pokemon Ruby Sapphire Music Disc",
+  "item.vigilance-extras.ruby_sapphire_zinnia_music_disc.desc": "Pokemon Ruby Sapphire - Zinnia Battle Music",
+
+  "item.vigilance-extras.ultra_mewtwo_battle_music_disc": "Pokemon Sun Moon Music Disc",
+  "item.vigilance-extras.ultra_mewtwo_battle_music_disc.desc": "Pokemon Sun Moon - Mewtwo Battle Music",
 
   "item-group.vigilance-extras": "Vigilance Extras"
 }

@@ -9,8 +9,26 @@ import net.z3rodown.vigilancextras.sound.ModSounds;
 
 public class ModItems {
 
+    public static final Item ARCEUS_ARCEUS_BATTLE_MUSIC_DISC = registerItem("arceus_arceus_battle_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.ARCEUS_ARCEUS_BATTLE_KEY).maxCount(1)));
+
     public static final Item ARCEUS_VOLO_FINAL_MUSIC_DISC = registerItem("arceus_volo_final_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.ARCEUS_VOLO_FINAL_KEY).maxCount(1)));
+
+    public static final Item BW_PWT_FINAL_MUSIC_DISC = registerItem("bw_pwt_final_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BW_PWT_FINAL_KEY).maxCount(1)));
+
+    public static final Item RUBY_SAPPHIRE_GIRATINA_MUSIC_DISC = registerItem("ruby_sapphire_giratina_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.RUBY_SAPPHIRE_GIRATINA_KEY).maxCount(1)));
+
+    public static final Item RUBY_SAPPHIRE_RAYQUAZA_MUSIC_DISC = registerItem("ruby_sapphire_rayquaza_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.RUBY_SAPPHIRE_RAYQUAZA_KEY).maxCount(1)));
+
+    public static final Item RUBY_SAPPHIRE_ZINNIA_MUSIC_DISC = registerItem("ruby_sapphire_zinnia_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.RUBY_SAPPHIRE_ZINNIA_KEY).maxCount(1)));
+
+    public static final Item ULTRA_MEWTWO_BATTLE_MUSIC_DISC = registerItem("ultra_mewtwo_battle_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.ULTRA_MEWTWO_BATTLE_KEY).maxCount(1)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(VigilanceExtras.MOD_ID, name), item);

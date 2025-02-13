@@ -22,6 +22,13 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModBlocks.UNSEEN_GLASS_BLOCK.asItem(), Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.ARCEUS_ARCEUS_BATTLE_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.ARCEUS_VOLO_FINAL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BW_PWT_FINAL_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_SAPPHIRE_GIRATINA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_SAPPHIRE_RAYQUAZA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.RUBY_SAPPHIRE_ZINNIA_MUSIC_DISC, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ULTRA_MEWTWO_BATTLE_MUSIC_DISC, Models.GENERATED);
+
     }
 }

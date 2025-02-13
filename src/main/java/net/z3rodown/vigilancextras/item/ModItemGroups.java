@@ -17,8 +17,17 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.UNSEEN_GLASS_BLOCK))
                     .displayName(Text.translatable("item-group.vigilance-extras"))
                     .entries((displayContext, entries) -> {
+                        // Blocks
                         entries.add(ModBlocks.UNSEEN_GLASS_BLOCK);
+                        // Music Discs
+                        entries.add(ModItems.ARCEUS_ARCEUS_BATTLE_MUSIC_DISC);
                         entries.add(ModItems.ARCEUS_VOLO_FINAL_MUSIC_DISC);
+                        entries.add(ModItems.BW_PWT_FINAL_MUSIC_DISC);
+                        entries.add(ModItems.RUBY_SAPPHIRE_GIRATINA_MUSIC_DISC);
+                        entries.add(ModItems.RUBY_SAPPHIRE_RAYQUAZA_MUSIC_DISC);
+                        entries.add(ModItems.RUBY_SAPPHIRE_ZINNIA_MUSIC_DISC);
+                        entries.add(ModItems.ULTRA_MEWTWO_BATTLE_MUSIC_DISC);
+
                     }).build());
 
     public static void registerItemGroups() {
