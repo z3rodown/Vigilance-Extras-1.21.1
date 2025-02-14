@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vigilance-extras:item/bw_pwt_final_music_disc"
+  }
+}

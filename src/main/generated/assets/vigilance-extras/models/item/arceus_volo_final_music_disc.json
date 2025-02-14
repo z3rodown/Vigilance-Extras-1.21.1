@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vigilance-extras:item/arceus_volo_final_music_disc"
+  }
+}

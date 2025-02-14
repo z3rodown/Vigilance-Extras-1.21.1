@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "vigilance-extras:item/ultra_mewtwo_battle_music_disc"
+  }
+}
