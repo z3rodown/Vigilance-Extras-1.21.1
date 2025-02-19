@@ -10,6 +10,9 @@
 
   "effect.vigilance-extras.ominous": "Ominous",
 
+  "item.vigilance-extras.ender_sword": "Ender Sword",
+  "tooltip.vigilance-extras.ender_sword.tooltip": "Right-click to teleport.",
+
   "item.vigilance-extras.arceus_arceus_battle_music_disc": "Pokemon Legends Music Disc",
   "item.vigilance-extras.arceus_arceus_battle_music_disc.desc": "Pokemon Legends Arceus - Arceus Battle Music",
 

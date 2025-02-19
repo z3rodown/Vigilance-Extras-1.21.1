@@ -17,6 +17,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModBlocks.UNSEEN_GLASS_BLOCK))
                     .displayName(Text.translatable("item-group.vigilance-extras"))
                     .entries((displayContext, entries) -> {
+                        // Items
+                        entries.add(ModItems.ENDER_SWORD);
                         // Blocks
                         entries.add(ModBlocks.UNSEEN_GLASS_BLOCK);
                         // Music Discs

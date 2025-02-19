@@ -20,6 +20,8 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(ModItems.ENDER_SWORD, Models.HANDHELD);
+
         itemModelGenerator.register(ModBlocks.UNSEEN_GLASS_BLOCK.asItem(), Models.GENERATED);
 
         itemModelGenerator.register(ModItems.ARCEUS_ARCEUS_BATTLE_MUSIC_DISC, Models.GENERATED);

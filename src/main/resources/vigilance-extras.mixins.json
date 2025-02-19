@@ -3,7 +3,7 @@
 	"package": "net.z3rodown.vigilancextras.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"EnderPearlEntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
