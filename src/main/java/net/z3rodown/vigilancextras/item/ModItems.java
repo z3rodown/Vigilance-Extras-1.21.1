@@ -1,6 +1,9 @@
 package net.z3rodown.vigilancextras.item;
 
 import net.minecraft.component.DataComponentTypes;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
+import net.minecraft.text.Text;
 import net.minecraft.util.Rarity;
 import net.z3rodown.vigilancextras.VigilanceExtras;
 import net.minecraft.item.Item;
@@ -9,6 +12,8 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import net.z3rodown.vigilancextras.item.custom.EnderSword;
 import net.z3rodown.vigilancextras.sound.ModSounds;
+
+import java.util.List;
 
 public class ModItems {
 
@@ -21,6 +26,9 @@ public class ModItems {
     public static final Item BW_PWT_FINAL_MUSIC_DISC = registerItem("bw_pwt_final_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.BW_PWT_FINAL_KEY).maxCount(1)));
 
+    public static final Item BW_THE_DREAMYARD_MUSIC_DISC = registerItem("bw_the_dreamyard_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.BW_THE_DREAMYARD_KEY).maxCount(1)));
+
     public static final Item RUBY_SAPPHIRE_GIRATINA_MUSIC_DISC = registerItem("ruby_sapphire_giratina_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.RUBY_SAPPHIRE_GIRATINA_KEY).maxCount(1)));
 
@@ -32,6 +40,19 @@ public class ModItems {
 
     public static final Item ULTRA_MEWTWO_BATTLE_MUSIC_DISC = registerItem("ultra_mewtwo_battle_music_disc",
             new Item(new Item.Settings().jukeboxPlayable(ModSounds.ULTRA_MEWTWO_BATTLE_KEY).maxCount(1)));
+
+    public static final Item XY_GYM_BATTLE_MUSIC_DISC = registerItem("xy_gym_battle_music_disc",
+            new Item(new Item.Settings().jukeboxPlayable(ModSounds.XY_GYM_BATTLE_KEY).maxCount(1)));
+
+    public static final Item SYRUPY_APPLE = registerItem("syrupy_apple",
+            new Item(new Item.Settings()){
+                @Override
+                public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                    tooltip.add(Text.translatable("tooltip.vigilance-extras.syrupy_apple.tooltip"));
+                    super.appendTooltip(stack, context, tooltip, type);
+                }
+            }
+    );
 
     public static final Item ENDER_SWORD = registerItem("ender_sword",
     new EnderSword(new Item.Settings()

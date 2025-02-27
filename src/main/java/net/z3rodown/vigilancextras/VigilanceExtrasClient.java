@@ -6,5 +6,6 @@ public class VigilanceExtrasClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
+
     }
 }

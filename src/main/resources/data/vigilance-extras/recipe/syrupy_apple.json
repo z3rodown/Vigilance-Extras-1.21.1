@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "cobblemon:red_apricorn"
+    },
+    {
+      "item": "cobblemon:yellow_apricorn"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "vigilance-extras:syrupy_apple"
+  }
+}

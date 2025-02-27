@@ -19,16 +19,19 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         // Items
                         entries.add(ModItems.ENDER_SWORD);
+                        entries.add(ModItems.SYRUPY_APPLE);
                         // Blocks
                         entries.add(ModBlocks.UNSEEN_GLASS_BLOCK);
                         // Music Discs
                         entries.add(ModItems.ARCEUS_ARCEUS_BATTLE_MUSIC_DISC);
                         entries.add(ModItems.ARCEUS_VOLO_FINAL_MUSIC_DISC);
                         entries.add(ModItems.BW_PWT_FINAL_MUSIC_DISC);
+                        entries.add(ModItems.BW_THE_DREAMYARD_MUSIC_DISC);
                         entries.add(ModItems.RUBY_SAPPHIRE_GIRATINA_MUSIC_DISC);
                         entries.add(ModItems.RUBY_SAPPHIRE_RAYQUAZA_MUSIC_DISC);
                         entries.add(ModItems.RUBY_SAPPHIRE_ZINNIA_MUSIC_DISC);
                         entries.add(ModItems.ULTRA_MEWTWO_BATTLE_MUSIC_DISC);
+                        entries.add(ModItems.XY_GYM_BATTLE_MUSIC_DISC);
 
                     }).build());
 

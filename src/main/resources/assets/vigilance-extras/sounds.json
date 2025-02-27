@@ -23,6 +23,14 @@
       }
     ]
   },
+  "bw_the_dreamyard": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:bw_the_dreamyard",
+        "stream": true
+      }
+    ]
+  },
   "ruby_sapphire_giratina": {
     "sounds": [
       {
@@ -51,6 +59,14 @@
     "sounds": [
       {
         "name":"vigilance-extras:ultra_mewtwo_battle",
+        "stream": true
+      }
+    ]
+  },
+  "xy_gym_battle": {
+    "sounds": [
+      {
+        "name":"vigilance-extras:xy_gym_battle",
         "stream": true
       }
     ]

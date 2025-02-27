@@ -4,6 +4,9 @@
 
   "enchantment.vigilance-extras.sparkle_seeker": "Sparkle Seeker",
 
+  "item.vigilance-extras.syrupy_apple": "Syrupy Apple",
+  "tooltip.vigilance-extras.syrupy_apple.tooltip": "§7Evolves Applin into Dipplin§r",
+
   "item.minecraft.potion.effect.ominous_potion": "Ominous Potion",
   "item.minecraft.splash_potion.effect.ominous_potion": "Ominous Splash Potion",
   "item.minecraft.lingering_potion.effect.ominous_potion": "Ominous Lingering Potion",
@@ -22,6 +25,9 @@
   "item.vigilance-extras.bw_pwt_final_music_disc": "Pokemon BW Music Disc",
   "item.vigilance-extras.bw_pwt_final_music_disc.desc": "Pokemon Black & White - PWT Final Round",
 
+  "item.vigilance-extras.bw_the_dreamyard_music_disc": "Pokemon BW Music Disc",
+  "item.vigilance-extras.bw_the_dreamyard_music_disc.desc": "Pokemon Black & White - The Dreamyard",
+
   "item.vigilance-extras.ruby_sapphire_giratina_music_disc": "Pokemon Ruby Sapphire Music Disc",
   "item.vigilance-extras.ruby_sapphire_giratina_music_disc.desc": "Pokemon Ruby Sapphire - Giratina Battle Music",
 
@@ -33,6 +39,9 @@
 
   "item.vigilance-extras.ultra_mewtwo_battle_music_disc": "Pokemon Sun Moon Music Disc",
   "item.vigilance-extras.ultra_mewtwo_battle_music_disc.desc": "Pokemon Sun Moon - Mewtwo Battle Music",
+
+  "item.vigilance-extras.xy_gym_battle_music_disc": "Pokemon XY Music Disc",
+  "item.vigilance-extras.xy_gym_battle_music_disc.desc": "Pokemon X/Y - Gym Leaders Battle Music",
 
   "item-group.vigilance-extras": "Vigilance Extras"
 }

@@ -17,12 +17,15 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.stat.Stats;
 import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
 import net.minecraft.world.World;
 
 import java.util.List;
+
+import static net.minecraft.entity.attribute.EntityAttributes.GENERIC_SAFE_FALL_DISTANCE;
 
 public class EnderSword extends Item {
 
@@ -43,8 +46,8 @@ public class EnderSword extends Item {
                         AttributeModifierSlot.MAINHAND
                 )
                 .add(
-                        EntityAttributes.GENERIC_SAFE_FALL_DISTANCE,
-                        new EntityAttributeModifier(Identifier.ofVanilla("safe_fall_distance"), 100, EntityAttributeModifier.Operation.ADD_VALUE),
+                        GENERIC_SAFE_FALL_DISTANCE,
+                        new EntityAttributeModifier(Identifier.ofVanilla("safe_fall_distance"), 50, EntityAttributeModifier.Operation.ADD_VALUE),
                         AttributeModifierSlot.MAINHAND
                 )
                 .build();
@@ -102,7 +105,9 @@ public class EnderSword extends Item {
 
     @Override
     public void appendTooltip(ItemStack stack, Item.TooltipContext context, List<Text> tooltip, TooltipType options) {
-        tooltip.add(Text.translatable("tooltip.vigilance-extras.ender_sword.tooltip"));
+        tooltip.removeIf(text -> text.getString().toLowerCase().contains("safe fall distance"));
+
+        tooltip.add(Text.translatable("tooltip.vigilance-extras.ender_sword.tooltip").formatted(Formatting.DARK_GRAY));
         super.appendTooltip(stack, context, tooltip, options);
     }
 }
